@@ -1,0 +1,27 @@
+.preloader {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: black;
+    z-index: 999999;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.preloader img{
+    width: 128px;
+}
+
+.preloader.done {
+    opacity: 0;
+    visibility: hidden;
+}

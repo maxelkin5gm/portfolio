@@ -1,0 +1,22 @@
+.section {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.section:before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.03);
+  width: 100%;
+  transform: skewY(-7deg);
+}
+
+.section__title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 400;
+}

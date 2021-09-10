@@ -1,0 +1,34 @@
+.contacts {
+  text-align: center;
+
+
+  &__email {
+    font-size: 40px;
+    padding-bottom: 100px;
+
+    @media (max-width: 850px) {
+      font-size: 23px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    color: #ffab00;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    a {
+      transition: background-color 0.3s;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      &:hover {
+        background-color: #ffab00;
+      }
+    }
+  }
+}

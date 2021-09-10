@@ -1,0 +1,32 @@
+// reset
+@import "reset";
+
+
+// config
+@import "section";
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  background: #222222;
+  color: white;
+}
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+
+
+// blocks
+@import "blocks/menu";
+@import "blocks/welcome";
+@import "blocks/about";
+@import "blocks/works";
+@import "blocks/contacts";
+
+
+// animate
+@import "animate";
